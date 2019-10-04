@@ -22,11 +22,11 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
    
-    ofPolyline polyline;
+//    ofPolyline polyline;
     ofxPanel gui;
     ofxIntSlider size;
     ofxColorSlider color;
-    ofxVec3Slider background;
+//    ofxVec3Slider background;
     ofxButton btnClear;
    // int count;
    
@@ -39,7 +39,4 @@ class ofApp : public ofBaseApp{
     float * fftSmooth;
     int reactive;
 		
-//    int mousex;
-//    int mousey;
-  //  int size;
 };
